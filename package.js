@@ -1,6 +1,6 @@
 Package.describe({
   name: 'capsulecat:commands',
-  version: '1.0.0',
+  version: '1.0.2',
   summary: 'Dispatch commands synchronously and asynchronously',
   git: 'https://github.com/CapsuleCat/MeteorCommands',
   documentation: 'README.md'

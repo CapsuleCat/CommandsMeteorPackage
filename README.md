@@ -4,9 +4,36 @@
 
 Dispatch reusable commands synchronously or asynchronously.
 
+## Installation
+
+```sh
+meteor add capsulecat:commands
+```
+
 ## The Command Pattern
 
 The command pattern is a great way to encapsulate actions into an object. When working with Meteor (or almost any programming framework), you will find that you will want to do the same action over and over, but with some minor changes in the request or response. The Command Pattern is a nice way of encapsulating all the data and logic necessary for an action.
+
+## Documentation
+
+All commands should have a handle function:
+
+```js
+class MyCommand {
+    constructor(arg1, arg2) {}
+    handle() {}
+}
+```
+
+You can dispatch any command syncronously or asyncronously:
+
+```js
+var result = dispatch(MyCommand, arg1, arg2);
+
+var callback = function (result) {}
+dispatchAsync(MyCommand, arg1, arg2, callback);
+```
+
 
 ## Example Code
 
