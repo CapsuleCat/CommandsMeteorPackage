@@ -2,4 +2,6 @@ language: node_js
 node_js:
   - "0.10"
 before_install:
-  - "curl -L http://git.io/ejPSng | /bin/sh"
+  - "curl https://install.meteor.com/ | sh"
+script:
+  - "VELOCITY_TEST_PACKAGES=1 meteor test-packages --driver-package velocity:html-reporter --velocity ./"
