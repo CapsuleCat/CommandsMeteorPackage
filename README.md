@@ -1,6 +1,6 @@
 # Commands for Meteor
 
-[![Build Status](https://travis-ci.org/CapsuleCat/MeteorCommands.svg?branch=master)](https://travis-ci.org/CapsuleCat/MeteorCommands)
+[![Build Status](https://travis-ci.org/CapsuleCat/MeteorCommands.svg?branch=master)](https://travis-ci.org/CapsuleCat/MeteorCommands) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 Dispatch reusable commands synchronously or asynchronously.
 
