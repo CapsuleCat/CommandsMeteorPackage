@@ -1,5 +1,7 @@
 # Commands for Meteor
 
+[![Build Status](https://travis-ci.org/CapsuleCat/MeteorCommands.svg?branch=master)](https://travis-ci.org/CapsuleCat/MeteorCommands)
+
 Dispatch reusable commands synchronously or asynchronously.
 
 ## The Command Pattern
